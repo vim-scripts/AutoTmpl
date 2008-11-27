@@ -1,0 +1,22 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2460
+
+The purpose of this script is to automatically load predefined template files
+when editing new files.
+
+The templates can contain fields that are dynamically filled in order to customize
+them at creation time (e.g. date of creation).
+
+Currently, templates are provided for:
+ - C
+ - C++
+ - C/C++ headers
+ - Python
+ - Shell scripts
+ - Vim plugins
+
+The plugins use some variables that can be defined in your .vimrc:
+ - let g:author = "your name"
+ - let g:email = "your email"
+ - let g:footer = "the footer you want vim to use for your files (e.g. tabstop=4 textwidth=100)"
+
+Please send me an email with any improvements you think are worth.
